@@ -1,0 +1,67 @@
+.THIS {
+	margin: auto;
+    color: #2020c0;
+    font-size: 160%;
+}
+
+.THIS.rock {
+	width:120px;
+	height:120px;
+	background: url(/resource/Janken/Janken/rock.png) no-repeat;
+}
+
+.THIS.paper {
+	width:120px;
+	height:120px;
+	background: url(/resource/Janken/Janken/paper.png) no-repeat;
+}
+
+.THIS.scissors {
+	width:120px;
+	height:120px;
+	background: url(/resource/Janken/Janken/scissors.png) no-repeat;
+}
+
+.THIS.rockWon {
+	width:120px;
+	height:120px;
+	background: url('/resource/Janken/Janken/rockWon.png') no-repeat;
+}
+
+.THIS.paperWon {
+	width:120px;
+	height:120px;
+	background: url('/resource/Janken/Janken/paperWon.png') no-repeat;
+}
+
+.THIS.scissorsWon {
+	width:120px;
+	height:120px;
+	background: url('/resource/Janken/Janken/scissorsWon.png') no-repeat;
+}
+
+.THIS.rockLost {
+    opacity: 0.2;
+	width:120px;
+	height:120px;
+	background: url('/resource/Janken/Janken/rockLost.png') no-repeat;
+}
+
+.THIS.paperLost {
+    opacity: 0.2;
+	width:120px;
+	height:120px;
+	background: url('/resource/Janken/Janken/paperLost.png') no-repeat;
+}
+
+.THIS.scissorsLost {
+    opacity: 0.2;
+	width:120px;
+	height:120px;
+	background: url('/resource/Janken/Janken/scissorsLost.png') no-repeat;
+}
+
+.THIS.name {
+    color: #2020e0;
+    font-size: 120%;
+}

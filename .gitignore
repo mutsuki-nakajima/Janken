@@ -1,0 +1,4 @@
+./sfdx
+config/
+mdapipkg/
+sfdx-project.json

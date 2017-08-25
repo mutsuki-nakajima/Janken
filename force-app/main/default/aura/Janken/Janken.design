@@ -1,0 +1,3 @@
+<design:component label="Janken">
+	<design:attribute name="player" label="Player" />
+</design:component>

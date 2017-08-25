@@ -1,0 +1,4 @@
+<design:component label="Janken Button">
+	<design:attribute name="name" label="Button Name" />
+	<design:attribute name="command" label="Command List" />
+</design:component>

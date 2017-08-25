@@ -1,0 +1,13 @@
+<aura:component implements="flexipage:availableForAllPageTypes" >
+	<aura:registerEvent name="jankenEvent" type="c:JankenEvent"/>
+	<aura:attribute name="player" type="string" />
+	<aura:attribute name="self" type="string" />
+	<aura:attribute name="judge" type="string[]" />
+	<aura:attribute name="result" type="string" />
+	<aura:attribute name="style" type="string" />
+	<aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+	<aura:handler event="c:JankenAction" action="{!c.handleAction}"/>
+	<aura:handler event="c:JankenEvent" action="{!c.handleEvent}"/>
+    
+    <div class="{!v.style}" onclick="{!c.handleClick}"><div class="name">{!v.player}</div></div>
+</aura:component>

@@ -1,0 +1,6 @@
+<aura:component implements="flexipage:availableForAllPageTypes" >
+	<aura:registerEvent name="jankenAction" type="c:JankenAction"/>
+    <aura:attribute name="name" type="String" />
+    <aura:attribute name="command" type="String" />
+    <ui:button aura:id="playButton" label="{!v.name}" press="{!c.play}" />
+</aura:component>
